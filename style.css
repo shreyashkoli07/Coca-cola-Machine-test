@@ -1,0 +1,44 @@
+html,body{
+ width: 100vw;
+ height: 100vh;
+
+}
+  
+.advertisement {
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(to bottom, #FF0000, #000000); /* Red to Black gradient */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 80px; /* Adjust size as needed */
+  margin-bottom: 10px;
+  width: 300px;
+  height: 250px;
+}
+
+.message {
+  font-family: 'Coca-Cola Font', sans-serif; /* Assuming custom Coca-Cola font */
+  font-size: 18px;
+  color: white;
+}
+
+
+
+.action-button {
+  display: inline-block;
+  padding: 50px;
+  background-color: #FFD700; /* Coca-Cola's signature color */
+  color: #000000; /* Black text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #FFFF00; /* Lighter shade on hover */
+}
